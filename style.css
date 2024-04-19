@@ -1,0 +1,74 @@
+<style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #ffc107;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header span {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        /* Main content styles */
+        main {
+            margin-top: 40px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Footwear list styles */
+        .footwear-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .footwear-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .footwear-item h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .footwear-item img {
+            width: 100%;
+            max-width: 250px;
+            margin-bottom: 10px;
+        }
+    </style>
